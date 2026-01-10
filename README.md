@@ -5,7 +5,7 @@ A JavaScript class for building query strings with various serialization styles 
 ## Installation
 
 ```bash
-npm install query-params
+npm install openapi-params
 ```
 
 ## Usage
