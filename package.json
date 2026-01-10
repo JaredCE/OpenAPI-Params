@@ -1,0 +1,16 @@
+{
+  "name": "openapi-params",
+  "version": "1.0.0",
+  "description": "Handle OpenAPI parameters",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.5.0",
+    "mocha": "^11.7.5",
+    "sinon": "^21.0.1"
+  }
+}
