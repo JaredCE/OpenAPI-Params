@@ -1,6 +1,6 @@
 {
   "name": "openapi-params",
-  "version": "1.0.0",
+  "version": "0.0.2",
   "description": "Handle OpenAPI parameters",
   "main": "index.js",
   "scripts": {
