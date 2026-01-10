@@ -1,6 +1,6 @@
 {
   "name": "openapi-params",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Handle OpenAPI parameters",
   "main": "index.js",
   "scripts": {
@@ -14,5 +14,15 @@
     "husky": "^9.1.7",
     "mocha": "^11.7.5",
     "sinon": "^21.0.1"
-  }
+  },
+  "keywords": [
+    "RFC 6570",
+    "OpenAPI",
+    "QueryParams",
+    "PathParams",
+    "Headers",
+    "Cookies",
+    "parameters",
+    "RFC6570"
+  ]
 }
