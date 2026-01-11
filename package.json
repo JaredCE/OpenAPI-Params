@@ -1,14 +1,21 @@
 {
   "name": "openapi-params",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Handle OpenAPI parameters",
   "main": "index.js",
   "scripts": {
     "test": "mocha --config './test/.mocharc.js'",
     "prepare": "husky"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Jared Evans",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JaredCE/OpenAPI-Params.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JaredCE/OpenAPI-Params/issues"
+  },
+  "license": "MIT",
   "devDependencies": {
     "chai": "^4.5.0",
     "husky": "^9.1.7",
