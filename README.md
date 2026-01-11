@@ -11,7 +11,7 @@ npm install openapi-params
 ## Usage
 
 ```javascript
-const QueryParams = require("./QueryParams");
+const QueryParams = require("openapi-params");
 
 const params = new QueryParams();
 params.append("color", "blue");
