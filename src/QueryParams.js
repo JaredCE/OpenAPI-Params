@@ -45,6 +45,33 @@ class QueryParams {
   }
 
   /**
+   * Get the number of parameters
+   * @returns {number} The number of parameters
+   */
+  get size() {
+    return this.params.length;
+  }
+
+  /**
+   * Get an iterator of [name, serializedValue] pairs
+   * @returns {Iterator} Iterator of [name, serializedValue] pairs
+   */
+  *entries() {
+    for (const param of this.params) {
+      const serialized = this.serializeParam(param);
+      yield [param.name, serialized];
+    }
+  }
+
+  /**
+   * Get an iterator of [name, serializedValue] pairs (for for...of loops)
+   * @returns {Iterator} Iterator of [name, serializedValue] pairs
+   */
+  [Symbol.iterator]() {
+    return this.entries();
+  }
+
+  /**
    * Validate that the style is applicable to the value type
    */
   validateStyleApplicability(style, value, explode) {
